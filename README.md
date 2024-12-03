@@ -45,7 +45,6 @@ Each model's performance was evaluated using metrics such as:
 - Precision
 - Recall
 - F1-Score
-- AUC-ROC (where applicable)
 
 | Model                     | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
 | ------------------------- | -------- | --------- | ------ | -------- | ------- |
