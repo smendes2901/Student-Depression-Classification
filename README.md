@@ -54,8 +54,8 @@ Each model's performance was evaluated using metrics such as:
 | Naive Bayes               | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
 | SVM                       | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
 | Artificial Neural Network | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
-
-(*Update the table with your actual results*)
+| Artificial Neural Network | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
+| Artificial Neural Network | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
 
 ## Requirements
 Install the necessary libraries using the `requirements.txt` file:
