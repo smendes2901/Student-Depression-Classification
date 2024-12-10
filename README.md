@@ -24,11 +24,11 @@ The dataset is obtained from [Kaggle](https://www.kaggle.com/datasets/hopesb/stu
 The dataset is cleaned and preprocessed before training the models.
 
 ## Features
-The key features include:
-- Academic performance
-- Social interactions
-- Lifestyle habits
-- Self-reported mental health scores
+The key features:
+- Suicidal Thoughts
+- Academic Pressure
+- Financial Stress
+- Study Satisfaction
 
 ## Models
 The following models were trained and evaluated for the classification task:
@@ -48,14 +48,14 @@ Each model's performance was evaluated using metrics such as:
 
 | Model                     | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
 | ------------------------- | -------- | --------- | ------ | -------- | ------- |
-| Logistic Regression       | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
-| Random Forest             | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
-| Decision Tree             | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
-| Naive Bayes               | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
-| SVM                       | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
-| Artificial Neural Network | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
-| Artificial Neural Network | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
-| Artificial Neural Network | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | XX.XX%  |
+| Logistic Regression       | 0.84     | 0.83      | 0.84   | 0.84     | 0.92    |
+| SVM                       | 0.84     | 0.83      | 0.84   | 0.84     | 0.92    |
+| Decision Tree             | 0.83     | 0.81      | 0.82   | 0.82     | 0.88    |
+| Random Forest             | 0.84     | 0.84      | 0.84   | 0.84     | 0.92    |
+| Naive Bayes               | 0.84     | 0.83      | 0.84   | 0.85     | 0.92    |
+| K-Nearest Neighbour       | 0.82     | 0.79      | 0.80   | 0.81     | 0.92    |
+| Artificial Neural Network | 0.84     | 0.84      | 0.84   | 0.84     | 0.92    |
+| XGBoost                   | 0.84     | 0.83      | 0.84   | 0.84     | 0.92    |
 
 ## Requirements
 Install the necessary libraries using the `requirements.txt` file:
